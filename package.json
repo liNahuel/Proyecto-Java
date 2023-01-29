@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-js",
+  "version": "1.0.0",
+  "description": "Este es mi proyecto de JS en CoderHOuse",
+  "main": "index.js",
+  "scripts": {
+    "test": "Js",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liNahuel/Proyecto-Java.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "Nahuel Barraza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liNahuel/Proyecto-Java/issues"
+  },
+  "homepage": "https://github.com/liNahuel/Proyecto-Java#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
